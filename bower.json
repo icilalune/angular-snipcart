@@ -1,0 +1,20 @@
+{
+  "author": "Simon Morvan <simon@icilalune.com>",
+  "name": "angular-snipcart",
+  "description": "Snipcart Javascript API integration for AngularJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/icilalune/angular-snipcart",
+  "ignore": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/icilalune/angular-snipcart"
+  },
+  "main": "./dist/angular-translate.js",
+  "devDependencies": {
+    "angular": "~1.2.26"
+  },
+  "resolutions": {
+    "angular": "~1.2.26"
+  },
+  "license": "BSD"
+}
