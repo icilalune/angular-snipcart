@@ -15,8 +15,6 @@
     "npm": ">=3"
   },
   "scripts": {
-    "prepublish": "bower install",
-    "shipit": "bower install && bower update && grunt prepare-release",
     "lint": "grunt lint",
     "compile": "grunt compile",
     "build": "grunt build"
