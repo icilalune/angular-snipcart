@@ -2,7 +2,7 @@
   "name": "angular-snipcart",
   "version": "0.0.1",
   "description": "Snipcart Javascript API integration for AngularJS",
-  "main": "dist/angular-snipcart.js",
+  "main": "src/angular-snipcart.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/icilalune/angular-snipcart"

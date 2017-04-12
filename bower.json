@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/icilalune/angular-snipcart"
   },
-  "main": "./dist/angular-translate.js",
+  "main": "./src/angular-snipcart.js",
   "devDependencies": {
     "angular": "~1.2.26"
   },
