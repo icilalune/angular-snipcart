@@ -8,11 +8,11 @@ function SnipcartProvider() {
   'use strict';
 
   this.apiKey = null;
-  this.$get = ['$window', function ($window) {
-    return new Service($window, this.apiKey);
+  this.$get = ['$window', '$rootScope', function ($window, $rootScope) {
+    return new Service($window, $rootScope, this.apiKey);
   }];
 
-  function Service($window, apiKey) {
+  function Service($window, $rootScope, apiKey) {
 
     var service = {};
     load();
@@ -32,6 +32,7 @@ function SnipcartProvider() {
         service.Snipcart = $window.Snipcart;
         service.api = $window.Snipcart.api;
         service.subscribe = $window.Snipcart.subscribe;
+        $rootScope.$emit('$snipcartLoad', service);
       });
 
       $window.document.getElementsByTagName('head')[0].appendChild(script);
