@@ -1,6 +1,6 @@
 {
   "name": "angular-snipcart",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Snipcart Javascript API integration for AngularJS",
   "main": "src/snipcart.js",
   "repository": {
