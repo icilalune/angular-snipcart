@@ -7,6 +7,10 @@
     "type": "git",
     "url": "http://github.com/icilalune/angular-snipcart"
   },
+  "keywords":[
+    "angular",
+    "snipcart"
+  ],
   "engines": {
     "node": "*"
   },
