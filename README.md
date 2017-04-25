@@ -6,7 +6,7 @@ Snipcart Javascript API integration for AngularJS.
 Description
 -----------
 
-This module integrate Snipcart JavaScript API as an AngularJS dependency.
+This module integrate [Snipcart](https://snipcart.com) JavaScript API as an AngularJS dependency.
 It takes care of loading Snipcart javascript code so you can manage the
 API key through standard Angular mechanisms.
 
