@@ -2,7 +2,7 @@
   "author": "Simon Morvan <simon@icilalune.com>",
   "name": "angular-snipcart",
   "description": "Snipcart Javascript API integration for AngularJS",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/icilalune/angular-snipcart",
   "keywords": [
     "angular",
