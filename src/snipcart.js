@@ -8,15 +8,19 @@ function SnipcartProvider() {
   'use strict';
 
   this.apiKey = null;
+  this.autoLoad = true;
   this.customFields = [];
   this.$get = ['$window', '$rootScope', function ($window, $rootScope) {
-    return new Service($window, $rootScope, this.apiKey, this.customFields);
+    return new Service($window, $rootScope, this.autoLoad, this.apiKey, this.customFields);
   }];
 
-  function Service($window, $rootScope, apiKey, customFields) {
+  function Service($window, $rootScope, autoLoad, apiKey, customFields) {
 
     var service = {};
-    load();
+    service.load = load;
+    if(autoLoad) {
+      service.load();
+    }
 
     return service;
 
